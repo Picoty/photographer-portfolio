@@ -1,0 +1,97 @@
+#landing-page .showcase {
+    padding-top: 4rem;
+}
+
+#main-container #landing-page #home .showcase-header .menu-btn {
+    transform: scale(0.6);
+}
+.navbar {
+    padding-top: 2vh;
+}
+
+.links {
+    font-size: 1rem;
+}
+
+#landing-page .showcase-header h1:first-of-type{
+    font-size: 26px;
+}
+
+#landing-page .showcase .showcase-content h3 {
+    font-size: 16px;
+}
+
+
+#landing-page .showcase .showcase-content h2 {
+    font-size: 20px;
+}
+
+/* ABOUT SECTION */
+#about-section {
+    max-height: 30vh;
+}
+
+.skills .profession .percent {
+    font-size: 1rem;
+}
+#about-section .skills  {
+    min-width: 100vw;
+    overflow: hidden;
+ }
+ 
+ #about-section .skills .profession .bar {
+     height: 0.75rem;
+     overflow: hidden;
+     max-width: 60vw;
+ }
+
+ /* WORK SECTION */
+ #work-section {
+     padding: 1.5rem 0;
+ }
+ #work-section .img-container {
+     display: grid;
+ }
+
+ @media screen and (max-width: 930px) {
+    #about-section {
+        padding-top: 2rem;
+    }
+     #services .wrapper .service  {
+        display: flex;
+        flex-direction: column;
+        margin-right: 4rem;
+     }
+     #services .wrapper .service .icon {
+         margin: auto;
+     }
+
+     #services .wrapper .service .inner-content {
+         text-align: center;
+     }
+
+     #contact .wrapper .contact-details ul li i{
+         font-size: x-small;
+     }
+     #contact .wrapper .contact-details ul li h5 {
+            font-size: 12px;
+     }
+     #contact .wrapper .contact-details ul li span {
+         font-size: small;
+     }
+
+ }
+
+ /* FOOTER */
+footer h3:first-of-type {
+    font-size: 16px;
+    padding: 10px 0;
+}
+
+footer .follow-us .social-media {
+    transform: scale(0.4);
+}
+
+footer p:last-of-type {
+    padding: 10px 0;
+}
